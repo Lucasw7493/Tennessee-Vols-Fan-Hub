@@ -1,0 +1,291 @@
+body {
+  font-family: Arial, sans-serif; /* Sets the font for the body text */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  color: white; /* Sets text color to white */
+  background-color: rgb(45, 45, 45); /* Sets background color to dark gray */
+}
+
+header {
+  background-color: #FF8200; /* Sets header background to Tennessee Orange */
+  margin-bottom: -10px; /* Adds vertical negative margin */
+  text-align: center; /* Centers the header content */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #FF8200; /* Tennessee Orange */
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Center the brand content vertically */
+  color: #fcfafa !important; /* Overrides bootstrap theme color */
+  padding: 2px;
+}
+
+.navbar-logo {
+  height: 40px; /* Set the height of the logo */
+  border-radius: 25px; 
+  margin-right: 10px; /* Add some space between the logo and the text */
+}
+
+.navbar .nav-link {
+  color: white; /* Set the color of the links */
+  margin-right: 120px; /* Add some space between the links */
+}
+
+.navbar .nav-link:hover {
+  color: #262626; /* Optional: A lighter shade for hover effect */
+}
+
+.navbar .form-inline .form-control {
+  border: 1px solid #FF8200; /* Border matching the navbar */
+}
+
+.navbar .form-inline .btn-outline-success {
+  color: #FF8200; /* Sets button text color to orange */
+  border-color: #FF8200; /* Sets button border color to orange */
+  background-color: white; /* White background for the search button */
+}
+
+.navbar .form-inline .btn-outline-success:hover {
+  color: white; /* Sets button text color to white on hover */
+  background-color: #FF8200; /* Orange background on hover */
+  border-color: white; /* Sets border color to white on hover */
+}
+
+.navbar .btn-outline-success {
+  color: #FF8200; /* Tennessee Orange text color */
+  background-color: white; /* White background */
+  border-color: #FF8200; /* Tennessee Orange border */
+}
+
+.navbar .btn-outline-success:hover {
+  color: white; /* White text color on hover */
+  background-color: #FF8200; /* Tennessee Orange background on hover */
+  border-color: white; /* White border on hover */
+}
+
+.nav-link {
+  margin-right: 140px; /* Adds space between nav links */
+  color: white !important; /* Forces nav link color to white */
+}
+
+
+.btn-outline-success:focus,
+.btn-outline-success.focus {
+  box-shadow: 0 0 0 0.2rem #4e4e4e; /* Adjusts the focus shadow */
+}
+
+/* Adjusting the padding, font size, and border radius */
+.btn-outline-success {
+  padding: 0.150rem 0.22rem; /* Adjusts the padding */
+  font-size: 1rem; /* Adjusts the font size */
+  border-radius: 0.25rem; /* Adjusts the border radius */
+}
+
+/* Example of making the button larger */
+.btn-outline-success.btn-lg {
+  padding: 0.5rem 1rem; /* Larger padding */
+  font-size: 1.25rem; /* Larger font size */
+  border-radius: 0.3rem; /* Larger border radius */
+}
+
+.cart-icon {
+  height: 24px; /* Adjust height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-cart .badge {
+  font-size: 0.75em; /* Adjust the font size if necessary */
+  line-height: 1;
+  top: -5px; /* Adjust the top position if necessary */
+  right: -5px; /* Adjust the right position if necessary */
+  background-color: #FF8200; /* Tennessee Orange background */
+}
+
+.checkout-btn {
+  background-color: #FF8200 !important; /* Tennessee Orange background */
+  color: white !important; /* White text */
+  border: 1px solid #FF8200 !important; /* Border color matching the background */
+}
+
+.checkout-btn:hover {
+  background-color: #e67300 !important; /* Slightly darker orange for hover effect */
+  border: 1px solid #e67300 !important; /* Border color matching the hover background */
+}
+
+.checkout-btn:hover {
+  background-color: #e67300 !important; /* Slightly darker orange for hover effect */
+  border: 1px solid #e67300 !important; /* Border color matching the hover background */
+}
+
+
+input[type="search"] {
+  color: #FF8200 !important; /* Change text color */
+  background-color: white; /* Change background color */
+}
+
+input[type="search"]::placeholder {
+  color: rgb(91, 91, 91); /* Change placeholder text color */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.329); /* Transparent background */
+  padding: 1rem; /* Adds padding around the caption */
+  border-radius: 0.5rem; /* Rounds the corners of the caption */
+  min-width: 238px;
+}
+
+#carouselIndicators, #carousel-Indicators {
+  color: #26262600; /* Hide the carousel page numbers */
+}
+
+.carousel-item {
+  max-height: 550px !important;
+}
+
+.carousel-caption h5 {
+  color: #fcfafa; /* Color for the title */
+}
+
+.carousel-caption p {
+  color: #ffffff; /* White color for the description */
+}
+
+main {
+  padding: 20px; /* Adds padding to the main content area */
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  border: solid 1px  #FF8200;
+  border-radius: 5px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background-image: url('../images/footer1.jpeg'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire footer */
+  background-position: center bottom 15%; /* Center the background image, 15% changes the focal point */
+  color: white; /* Ensure the text color is readable */
+  padding: 10px 0; /* Keep original padding */
+  text-align: center; /* Center the text */
+  border: 1px solid #FF8200; /* Adds an orange border outline around the footer */
+  border-radius: 5px;
+}
+
+.social-links {
+  list-style-type: none; /* Removes bullets from the list */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+}
+
+.social-links li {
+  display: inline; /* Displays list items inline */
+  margin-right: 5px; /* Space between the social icons */
+}
+
+.social-icon {
+  width: 32px; /* Sets width of the social icons */
+  height: 32px; /* Sets height of the social icons */
+  border-radius: 50%; /* Rounds the corners of the icons */
+}
+
+.footer p {
+  margin: 0; /* Removes default margin */
+  font-size: 14px; /* Font size */
+}
+
+.product-grid {
+  display: flex; /* Displays products in a row */
+  flex-wrap: wrap; /* Wraps products to the next line if necessary */
+  gap: 20px; /* Adds space between the products */
+}
+
+.product-grid div {
+  border: 1px solid #ccc; /* Sets border color to light white */
+  padding: 10px; /* Adds padding inside the product divs */
+  width: calc(33.333% - 20px); /* Sets the width of each product div */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.forum-topics div {
+  border: 1px solid #ccc; /* Sets border color to light gray */
+  padding: 10px; /* Adds padding inside the forum topic divs */
+  margin-bottom: 10px; /* Adds space below each forum topic div */
+}
+
+.forum-thread .list-group-item {
+  color: #3a3a3a; /* Sets the font color for the replies */
+}
+
+/* Custom styles for the store section */
+.card {
+  margin-bottom: 20px; /* Adds space below each card */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Sets font size for the card title */
+}
+
+.card-text {
+  font-size: 1rem; /* Sets font size for the card text */
+  color: #262626; /* Sets text color to dark gray */
+}
+
+.card-img-top {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the space */
+}
+.modal-body {
+  color: #262626; /* Sets text color in the modal body to dark gray */
+}
+
+.contact-carousel img {
+  max-height: 400px; /* Adjust the height */
+  object-fit: cover; /* Ensures the image covers the container without distorting */
+  width: 100%; /* Ensures the image takes up the full width */
+}
+
+.carousel-item {
+  max-height: 525px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Common button styles, excluding the search button */
+button:not(.btn-outline-success),
+input[type="button"]:not(.btn-outline-success),
+input[type="submit"]:not(.btn-outline-success) {
+  background-color: #FF8200; /* Tennessee Orange background */
+  color: white; /* White text */
+  border: 1px solid #FF8200; /* Border color matching the background */
+}
+
+button:not(.btn-outline-success):hover,
+input[type="button"]:not(.btn-outline-success):hover,
+input[type="submit"]:not(.btn-outline-success):hover {
+  background-color: #e67300; /* Slightly darker orange for hover effect */
+  color: white; /* White text on hover */
+  border: 1px solid #e67300; /* Border color matching the hover background */
+}
+ 
