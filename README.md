@@ -9,7 +9,7 @@ Navigate through the home, store, forum, and contact pages using the navigation 
 ## Technologies Used
 - HTML
 - CSS
-
+- JAVASCRIPT
 ## Future Improvements
 1. Add user authentication for the forum.
 2. Integrate a real-time chat feature.
