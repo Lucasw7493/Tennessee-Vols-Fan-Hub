@@ -16,4 +16,4 @@ Navigate through the home, store, forum, and contact pages using the navigation 
 3. Enhance the store with a shopping cart and payment gateway.
 
 ## Hosting Link
-[GitHub Pages Link](https://your-github-username.github.io/Tennessee-Vols-Fan-Hub/)
+[GitHub Pages Link](https://github.com/Lucasw7493)
